@@ -29,6 +29,12 @@
             android:targetClass="com.android.launcher3.settings.SettingsIcons" />
     </Preference>
 
+    <com.android.launcher3.settings.IconPackPreference
+        android:key="pref_iconPackPackage"
+        android:title="@string/icon_pack"
+        android:summary="@string/icon_pack_summary"
+        android:persistent="true" />
+
     <Preference
         android:key="home_screen"
         android:title="@string/home_category_title"
